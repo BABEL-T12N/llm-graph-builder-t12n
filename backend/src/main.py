@@ -52,6 +52,7 @@ def create_source_node_graph_url_s3(graph, model, source_url, aws_access_key_id,
         obj_source_node.awsAccessKeyId = aws_access_key_id
         obj_source_node.created_at = datetime.now()
         try:
+          # append the node to the Neo4j Database
           graphDb_data_Access = graphDBdataAccess(graph)
           graphDb_data_Access.create_source_node(obj_source_node)
           success_count+=1
@@ -61,6 +62,37 @@ def create_source_node_graph_url_s3(graph, model, source_url, aws_access_key_id,
           failed_count+=1
           # error_message = str(e)
           lst_file_name.append({'fileName':obj_source_node.file_name,'fileSize':obj_source_node.file_size,'url':obj_source_node.url,'status':'Failed'})
+    return lst_file_name,success_count,failed_count
+  
+def create_source_node_graph_url_obsidian(graph, model, source_url, aws_access_key_id, aws_secret_access_key, source_type):
+    
+    lst_file_name = []
+    directory_name = get_s3_directory_info(source_url,aws_access_key_id=aws_access_key_id,aws_secret_access_key=aws_secret_access_key)
+    logging.info(f'directory name : {directory_name}')
+    success_count=0
+    failed_count=0
+    
+    obj_source_node = sourceNode()
+    obj_source_node.file_name = directory_name
+    obj_source_node.file_type = 'obsidian'
+    obj_source_node.file_size = 'N/A'
+    obj_source_node.file_source = source_type
+    obj_source_node.total_pages = 'N/A'
+    obj_source_node.model = model
+    obj_source_node.url = str(source_url)
+    obj_source_node.awsAccessKeyId = aws_access_key_id
+    obj_source_node.created_at = datetime.now()
+    try:
+      # append the node to the Neo4j Database
+      graphDb_data_Access = graphDBdataAccess(graph)
+      graphDb_data_Access.create_source_node(obj_source_node)
+      success_count+=1
+      lst_file_name.append({'fileName':obj_source_node.file_name,'fileSize':obj_source_node.file_size,'url':obj_source_node.url,'status':'Success'})
+
+    except Exception as e:
+      failed_count+=1
+      # error_message = str(e)
+      lst_file_name.append({'fileName':obj_source_node.file_name,'fileSize':obj_source_node.file_size,'url':obj_source_node.url,'status':'Failed'})
     return lst_file_name,success_count,failed_count
 
 def create_source_node_graph_url_gcs(graph, model, gcs_project_id, gcs_bucket_name, gcs_bucket_folder, source_type, credentials):

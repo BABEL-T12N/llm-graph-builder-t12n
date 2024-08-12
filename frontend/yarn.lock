@@ -917,13 +917,14 @@
     tinycolor2 "^1.4.2"
     usehooks-ts "2.9.1"
 
-"@neo4j-nvl/base@^0.3.2":
-  version "0.3.2"
-  resolved "https://registry.yarnpkg.com/@neo4j-nvl/base/-/base-0.3.2.tgz#d7450cb82ef739e5191f204705224692f2952624"
-  integrity sha512-Bwny1WdT4wjDPFfcPlkzkr+tJjUbjyXjWXQM0Goa2vcRLazkv9R/XCxoj6Wo+eV+OQBGyK/f3Ie1bk7oljO1Ww==
+"@neo4j-nvl/base@0.3.1", "@neo4j-nvl/base@0.3.3", "@neo4j-nvl/base@^0.3.1", "@neo4j-nvl/base@^0.3.2":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@neo4j-nvl/base/-/base-0.3.1.tgz#d38f3fa0925828194463975310a7cac2717d7e22"
+  integrity sha512-bI9a0nY4ACrvSXS9tpuqf7oQ1U+/3Ooen/2FefcnXYsHd0Fmk71wDj0Ia1BMPQ6JetDkc/Vj8GrexLxuk0UzUA==
   dependencies:
-    "@neo4j-nvl/layout-workers" "^0.3.2"
+    "@neo4j-nvl/layout-workers" "^0.3.1"
     color-string "^1.9.1"
+    contrast "1.0.1"
     d3-force "^3.0.0"
     gl-matrix "^3.3.0"
     glsl-inject-defines "^1.0.3"
@@ -932,8 +933,15 @@
     mobx "^3.2.2"
     node-pid-controller "^1.0.1"
     resizelistener "^1.1.0"
-    tinycolor2 "1.6.0"
-    uuid "^8.3.2"
+
+"@neo4j-nvl/interaction-handlers@^0.3.1":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@neo4j-nvl/interaction-handlers/-/interaction-handlers-0.3.3.tgz#bb555322a8d60668429d2efdab50d5f42c6d3216"
+  integrity sha512-BQMF8E/M9RT8nYoPwAH4j/C42iUEy8gzPAAeb0q39VFGDuHq0Dwu316feHPN1wB5z8I9UpQiJF6/c7OSWmQyWQ==
+  dependencies:
+    "@neo4j-nvl/base" "0.3.3"
+    concaveman "^1.2.1"
+    lodash "4.17.21"
 
 "@neo4j-nvl/interaction-handlers@^0.3.2":
   version "0.3.2"
@@ -943,6 +951,17 @@
     "@neo4j-nvl/base" "^0.3.2"
     concaveman "^1.2.1"
     lodash "4.17.21"
+
+"@neo4j-nvl/layout-workers@^0.3.1":
+  version "0.3.3"
+  resolved "https://registry.yarnpkg.com/@neo4j-nvl/layout-workers/-/layout-workers-0.3.3.tgz#22be7cd3a7b898682638e23efc3738b9fff59fa6"
+  integrity sha512-IWalR7B9NnXFw5rLny583VkwmiVadNOraTzKpzDex6VjLakRDkFwhOZHm857qaitgekoxkWQ1iQX+l//VcblHg==
+  dependencies:
+    "@neo4j-bloom/dagre" "^0.8.14"
+    bin-pack "^1.0.2"
+    cytoscape "^3.23.0"
+    cytoscape-cose-bilkent "^4.1.0"
+    graphlib "^2.1.8"
 
 "@neo4j-nvl/layout-workers@^0.3.2":
   version "0.3.2"
@@ -954,6 +973,17 @@
     cytoscape "^3.23.0"
     cytoscape-cose-bilkent "^4.1.0"
     graphlib "^2.1.8"
+
+"@neo4j-nvl/react@0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@neo4j-nvl/react/-/react-0.3.1.tgz#bb29ec2f3400d6188206b281d28d5902ad785999"
+  integrity sha512-OYkar+MAcfyfuGvNN+66ubIyVMpquxbgMAdgnnlMUxGeYjfL3WQ7/nshooK+wHJXLicPfOL77ZeLTSLERI9f3Q==
+  dependencies:
+    "@neo4j-nvl/base" "^0.3.1"
+    "@neo4j-nvl/interaction-handlers" "^0.3.1"
+    lodash "4.17.21"
+    react "^18.2.0"
+    react-dom "^18.2.0"
 
 "@neo4j-nvl/react@^0.3.2":
   version "0.3.2"
@@ -2748,6 +2778,13 @@ concaveman@^1.2.1:
     robust-predicates "^2.0.4"
     tinyqueue "^2.0.3"
 
+contrast@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/contrast/-/contrast-1.0.1.tgz#839c66d8852269d33f4eb0a1b92d994bdd16385e"
+  integrity sha512-cJvPtJOPXxFtkppBYqk1A1+ZtPT7neKmgjBKMtjnwSAZ5k+5GNdJHeDmIjCTLEItLcqna+K7GTtaGjQtDJcF4A==
+  dependencies:
+    hex-to-rgb "^1.0.0"
+
 convert-source-map@^1.5.0:
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/convert-source-map/-/convert-source-map-1.9.0.tgz#7faae62353fb4213366d0ca98358d22e8368b05f"
@@ -3750,6 +3787,11 @@ hastscript@^6.0.0:
     hast-util-parse-selector "^2.0.0"
     property-information "^5.0.0"
     space-separated-tokens "^1.0.0"
+
+hex-to-rgb@^1.0.0:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/hex-to-rgb/-/hex-to-rgb-1.0.1.tgz#100b9df126b32f2762adf8486be68c65ef8ed2a4"
+  integrity sha512-2GsESdjpJIrRL8I7iPOp0r0wczJBk++Q/zFrviNaTRPWMIgk5bPqDmKPUvRHN0SZrYT9N1e+xZU1niYJ6QxzMg==
 
 highlight.js@^10.4.1, highlight.js@~10.7.0:
   version "10.7.3"

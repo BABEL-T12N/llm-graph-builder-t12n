@@ -80,6 +80,7 @@ async def create_source_knowledge_graph_url(
     ):
     
     try:
+        logging.info(f'Incoming Source Type: {source_type}')
         if source_url is not None:
             source = source_url
         else:
@@ -88,6 +89,9 @@ async def create_source_knowledge_graph_url(
         graph = create_graph_database_connection(uri, userName, password, database)
         if source_type == 's3 bucket' and aws_access_key_id and aws_secret_access_key:
             lst_file_name,success_count,failed_count = await asyncio.to_thread(create_source_node_graph_url_s3,graph, model, source_url, aws_access_key_id, aws_secret_access_key, source_type
+            )
+        elif source_type == 'obsidian vault'  and aws_access_key_id and aws_secret_access_key:
+            lst_file_name,success_count,failed_count = await asyncio.to_thread(create_source_node_graph_url_obsidian,graph, model, source_url, aws_access_key_id, aws_secret_access_key, source_type
             )
         elif source_type == 'gcs bucket':
             lst_file_name,success_count,failed_count = create_source_node_graph_url_gcs(graph, model, gcs_project_id, gcs_bucket_name, gcs_bucket_folder, source_type,Credentials(access_token)

@@ -34,9 +34,9 @@ const S3Modal: React.FC<S3ModalProps> = ({ hideModal, open }) => {
       status: 'New',
       NodesCount: 0,
       relationshipCount: 0,
-      type: 'PDF',
+      type: 'OBSIDIAN',
       model: model,
-      fileSource: 's3 bucket',
+      fileSource: 'obsidian vault',
       processingProgress: undefined,
     };
     if (url) {
@@ -58,7 +58,7 @@ const S3Modal: React.FC<S3ModalProps> = ({ hideModal, open }) => {
           model: model,
           accessKey: accessKey.trim(),
           secretKey: secretKey.trim(),
-          source_type: 's3 bucket',
+          source_type: 'obsidian vault',
         });
         setStatus('success');
         if (apiResponse?.data.status == 'Failed' || !apiResponse.data) {

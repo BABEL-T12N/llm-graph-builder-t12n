@@ -29,15 +29,39 @@ def get_s3_files_info(s3_url,aws_access_key_id=None,aws_secret_access_key=None):
           file_size = obj['Size']
 
           # Check if file is a PDF
-          if file_name.endswith('.pdf'):
-            files_info.append({'file_key': file_key, 'file_size_bytes': file_size})
-            
+          #if file_name.endswith('.pdf'):
+          files_info.append({'file_key': file_key, 'file_size_bytes': file_size})
+          
       return files_info
   except Exception as e:
     error_message = str(e)
     logging.error(f"Error while reading files from s3: {error_message}")
     raise Exception(error_message)
 
+def get_s3_directory_info(s3_url, aws_access_key_id=None, aws_secret_access_key=None):
+    try:
+      # Extract bucket name and directory from the S3 URL
+        parsed_url = urlparse(s3_url)
+        bucket_name = parsed_url.netloc
+        directory = parsed_url.path.lstrip('/')
+        s3 = boto3.client('s3', aws_access_key_id=aws_access_key_id, aws_secret_access_key=aws_secret_access_key)
+        response = s3.list_objects_v2(Bucket=bucket_name, Prefix=directory)
+
+        # Check each object for file size and type
+        for obj in response.get('Contents', []):
+            file_key = obj['Key']
+            file_name = os.path.basename(file_key)
+            file_size = obj['Size']
+            logging.info(f'file_name : {file_name}  and file key : {file_key}')
+            # Check if file is a PDF
+            
+            #files_info.append({'file_key': file_key, 'file_size_bytes': file_size})
+
+        return directory
+    except Exception as e:
+        error_message = str(e)
+        logging.error(f"Error while reading files from s3: {error_message}")
+        raise Exception(error_message)
 
 def get_s3_pdf_content(s3_url,aws_access_key_id=None,aws_secret_access_key=None):
     try:

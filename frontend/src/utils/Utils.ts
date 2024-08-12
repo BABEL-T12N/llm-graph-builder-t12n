@@ -13,7 +13,7 @@ export const url = () => {
 
 // validation check for s3 bucket url
 export const validation = (url: string) => {
-  return url.trim() != '' && /^s3:\/\/([^/]+)\/?$/.test(url) != false;
+  return url.trim() != '' && /^s3:\/\/([^/]+)(\/[^/]+\/?)*$/.test(url) != false;
 };
 
 export const wikiValidation = (url: string) => {

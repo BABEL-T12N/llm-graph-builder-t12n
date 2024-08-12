@@ -5,7 +5,7 @@ import Neo4jRetrievalLogo from '../../../assets/images/Neo4jRetrievalLogo.png';
 import wikipedialogo from '../../../assets/images/Wikipedia-logo-v2.svg';
 import youtubelogo from '../../../assets/images/youtube.png';
 import gcslogo from '../../../assets/images/gcs.webp';
-import s3logo from '../../../assets/images/s3logo.png';
+import s3logo from '../../../assets/images/obsidian-icon.png';
 import { Chunk, Entity, ExtendedNode, GroupedEntity, UserCredentials, chatInfoMessage } from '../../../types';
 import { useEffect, useMemo, useState } from 'react';
 import HoverableLink from '../../UI/HoverableLink';

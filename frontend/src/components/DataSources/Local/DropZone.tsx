@@ -100,6 +100,7 @@ const DropZone: FunctionComponent = () => {
         formData.append('totalChunks', totalChunks.toString());
         formData.append('originalname', file.name);
         formData.append('model', model);
+        console.log('my model is:', model)
         for (const key in userCredentials) {
           formData.append(key, userCredentials[key]);
         }

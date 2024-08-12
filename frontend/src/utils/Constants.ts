@@ -145,7 +145,7 @@ export const buttonCaptions = {
   dropzoneSpan: 'Documents, Images, Unstructured text',
   youtube: 'Youtube',
   gcs: 'GCS',
-  amazon: 'Amazon S3',
+  amazon: 'Obisidian Amazon S3',
   noLables: 'No Labels Found in the Database',
   dropYourCreds: 'Drop your neo4j credentials file here',
   analyze: 'Analyze text to extract graph schema',
