@@ -1,0 +1,1 @@
+Los usuarios de [[BABEL HUNTING ZONE|BHZ]] deberán autenticarse utilizando un sistema de Single-Sign On, y por tanto, utilizar el sistema de autenticación corporativo. 

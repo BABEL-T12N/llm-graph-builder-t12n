@@ -1,0 +1,213 @@
+{
+  "main": {
+    "id": "174325c85abda5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a8bc24a763fb5fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c916d68ad3e4e0a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome SRS.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7dfa03acbd4c21d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onthology/BABEL HUNTING ZONE.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39aba208d105e139",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f7fca7eabc7356",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f940827e532350ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33f1bdb4768d7b27",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Role",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73d90a10cb25afa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb06c2fd41cde4d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f01936d69e6d382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7fd84776de5e071",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Onthology/BABEL HUNTING ZONE.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30482f10de70836f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Onthology/BABEL HUNTING ZONE.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b13c3d749880d051",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02fe2c64dffead72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Onthology/BABEL HUNTING ZONE.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 482.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "copilot:Copilot Chat": false
+    }
+  },
+  "active": "f940827e532350ed",
+  "lastOpenFiles": [
+    "No-Functional Specs/BABEL LAUNCHER.md",
+    "Onthology/BABEL HUNTING ZONE.md",
+    "Welcome SRS.md",
+    "Functional/Login.md",
+    "Functional/Introducción.md",
+    "Requirements/Validaciones Base.md",
+    "Requirements/Roles.md",
+    "Onthology/Técnico de Control  de Gestión.md",
+    "Onthology/Multi-Divisa.md",
+    "Onthology/Multi-idioma.md",
+    "Functional/Buscador de Oportunidades.md",
+    "Pasted image 20240628105159.png",
+    "User Stories/Nuevas Oportunidades.md",
+    "Contactos.md",
+    "Onthology/Administrador.md",
+    "Introduction.md",
+    "Técnico de Control de Gestión.md",
+    "Onthology/Centros.md",
+    "Onthology/Administración.md",
+    "Onthology/Editor de Contactos.md",
+    "Onthology/Colaborador.md",
+    "Onthology/Consulta.md",
+    "Onthology/Director de Operaciones.md",
+    "Onthology/Director.md",
+    "Onthology/Gerente.md",
+    "Onthology/Unidad de Negocio.md",
+    "Onthology/Responsable de Unidad de Negocio.md",
+    "Sin nombre",
+    "Sin título 2.canvas",
+    "Resources/Images/Pasted image 20240625104809.png",
+    "Resources/Images/Pasted image 20240625103641.png",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Untitled.canvas",
+    "Components",
+    "Untitled",
+    "Templates",
+    "Resources/Images/clientes main page.png",
+    "Resources/Images",
+    "Resources",
+    "No-Functional Specs",
+    "Functional",
+    "User Stories",
+    "Requirements"
+  ]
+}

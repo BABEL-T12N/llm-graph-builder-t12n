@@ -241,6 +241,20 @@ def extract_graph_from_file_s3(uri, userName, password, database, model, source_
 
   return processing_source(uri, userName, password, database, model, file_name, pages, allowedNodes, allowedRelationship)
 
+
+def extract_graph_from_obsidian_vault(uri, userName, password, database, model, source_url, aws_access_key_id, aws_secret_access_key, allowedNodes, allowedRelationship):
+
+  if(aws_access_key_id==None or aws_secret_access_key==None):
+    raise Exception('Please provide AWS access and secret keys')
+  else:
+    logging.info("Insert in S3 Block")
+    file_name, pages = get_documents_from_s3_to_system_path(source_url, aws_access_key_id, aws_secret_access_key,"./temp")
+  
+  if pages==None or len(pages)==0:
+    raise Exception(f'File content is not available for file : {file_name}')
+
+  return processing_source(uri, userName, password, database, model, file_name, pages, allowedNodes, allowedRelationship)
+
 def extract_graph_from_web_page(uri, userName, password, database, model, source_url, allowedNodes, allowedRelationship):
 
   file_name, pages = get_documents_from_web_page(source_url)

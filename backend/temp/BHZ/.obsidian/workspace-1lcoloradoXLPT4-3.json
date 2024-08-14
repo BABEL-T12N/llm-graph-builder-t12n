@@ -1,0 +1,224 @@
+{
+  "main": {
+    "id": "174325c85abda5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4641c29deff397b2",
+        "type": "tabs",
+        "dimension": 37.13898916967509,
+        "children": [
+          {
+            "id": "f7f84b37d1aa30b4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onthology/Proyecto.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bb4515acbc976765",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onthology/Control de Gestión.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "00c57ded936b57e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onthology/Oportunidad.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "f63e9553328b89e1",
+        "type": "tabs",
+        "dimension": 62.861010830324915,
+        "children": [
+          {
+            "id": "17b5ac83b7ae8671",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "User Stories/Alta Oportunidad.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39aba208d105e139",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f7fca7eabc7356",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f940827e532350ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33f1bdb4768d7b27",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73d90a10cb25afa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb06c2fd41cde4d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f01936d69e6d382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7fd84776de5e071",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "User Stories/Alta Oportunidad.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30482f10de70836f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "User Stories/Alta Oportunidad.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b13c3d749880d051",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02fe2c64dffead72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "User Stories/Alta Oportunidad.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f940827e532350ed",
+  "lastOpenFiles": [
+    "Components",
+    "Onthology/Gerente.md",
+    "Onthology/Proyecto.md",
+    "Onthology/Cliente.md",
+    "Templates",
+    "Onthology/Unidad de Negocio.md",
+    "Onthology/Contacto.md",
+    "Contactos.md",
+    "Onthology/Oportunidad.md",
+    "Onthology/País.md",
+    "Onthology/Responsable de Unidad de Negocio.md",
+    "Onthology/Control de Gestión.md",
+    "Onthology/BABEL HUNTING ZONE.md",
+    "User Stories/Alta Oportunidad.md",
+    "Onthology/Hoja de Valoración.md",
+    "Resources/Images/clientes main page.png",
+    "Resources/Images",
+    "Resources",
+    "Oportunida.md",
+    "No-Functional Specs",
+    "Oportunidades.md",
+    "Welcome.md",
+    "create a link.md",
+    "Features",
+    "User Stories",
+    "Requirements",
+    "Onthology"
+  ]
+}

@@ -41,7 +41,7 @@ export const extractAPI = async (
   const method: Method = 'post';
   const commonParams: UserCredentials = userCredentials;
   let additionalParams: ExtractParams;
-  if (source_type === 's3 bucket') {
+  if (source_type === 's3 bucket' || source_type === 'obsidian vault') {
     additionalParams = {
       model,
       source_url,

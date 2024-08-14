@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "174325c85abda5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a8bc24a763fb5fd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b7dfa03acbd4c21d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional/Creación de Oportunidad.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "273ae8da1bbfbf70",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onthology/Oportunidad.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "787b8846756ea453",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Onthology/Unidad de Negocio.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39aba208d105e139",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f7fca7eabc7356",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f940827e532350ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33f1bdb4768d7b27",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#Role",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73d90a10cb25afa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fb06c2fd41cde4d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f01936d69e6d382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7fd84776de5e071",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Functional/Creación de Oportunidad.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30482f10de70836f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Functional/Creación de Oportunidad.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b13c3d749880d051",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02fe2c64dffead72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Functional/Creación de Oportunidad.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 482.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "copilot:Copilot Chat": false
+    }
+  },
+  "active": "b7dfa03acbd4c21d",
+  "lastOpenFiles": [
+    "Functional/Gestión de Clientes.md",
+    "Functional/Gestión de Contactos.md",
+    "Functional/Funcionalidades para el Administrador.md",
+    "Functional/Creación de Oportunidad.md",
+    "Functional/Buscador de Oportunidades.md",
+    "User Stories/Gestionar Notificaciones.md",
+    "Components",
+    "Onthology/Director de Operaciones.md",
+    "Contactos.md",
+    "Código.md",
+    "Resources/Images/Pasted image 20240701100330.png",
+    "Functional/Notificaciones.md",
+    "User Stories/Gestionar Contactos.md",
+    "Onthology/Gerente.md",
+    "User Stories/Gestionar Clientes.md",
+    "Functional/Gestion de Oportunidades.md",
+    "Onthology/Contacto.md",
+    "User Stories/Gestionar Oportunidades.md",
+    "Onthology/Cliente.md",
+    "responsable.md",
+    "User Stories/Alta Oportunidad.md",
+    "Functional/Gestión de usuarios y roles.md",
+    "Functional/Introducción.md",
+    "Functional/Gestión de Unidades de Negocio.md",
+    "No-Functional Specs/BABEL LAUNCHER.md",
+    "No-Functional Specs/Relaciones Ontología-Tabla SQL.md",
+    "Requirements/Roles.md",
+    "Resources/Images/Pasted image 20240628105159.png",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Sin título 2.canvas",
+    "Resources/Images/Pasted image 20240625104809.png",
+    "Resources/Images/Pasted image 20240625103641.png",
+    "Untitled.canvas",
+    "Functional/Components",
+    "Untitled",
+    "Templates",
+    "Resources/Images/clientes main page.png",
+    "Resources/Images",
+    "Resources",
+    "No-Functional Specs",
+    "Functional",
+    "User Stories",
+    "Requirements"
+  ]
+}

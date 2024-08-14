@@ -584,7 +584,8 @@ const FileTable = forwardRef<ChildRef, FileTableProps>((props, ref) => {
                           ? item?.status
                           : item?.fileSource == 'Wikipedia' ||
                             item?.fileSource == 'youtube' ||
-                            item?.fileSource == 'gcs bucket'
+                            item?.fileSource == 'gcs bucket' ||
+                            item?.fileSource == 'obsidian vault'
                             ? item?.status
                             : 'N/A',
                   model: item?.model ?? model,

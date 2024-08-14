@@ -1,0 +1,214 @@
+{
+  "main": {
+    "id": "174325c85abda5d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "bda856989d9f8f26",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c9b8d272dfb3a77",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Functional/UI/Pantalla Oportunidades.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "39aba208d105e139",
+    "type": "split",
+    "children": [
+      {
+        "id": "71f7fca7eabc7356",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f940827e532350ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "33f1bdb4768d7b27",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "task: ",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "73d90a10cb25afa5",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 401.51103591918945
+  },
+  "right": {
+    "id": "fb06c2fd41cde4d9",
+    "type": "split",
+    "children": [
+      {
+        "id": "6f01936d69e6d382",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7fd84776de5e071",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Functional/UI/Pantalla Oportunidades.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "30482f10de70836f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Functional/UI/Pantalla Oportunidades.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b13c3d749880d051",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "02fe2c64dffead72",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Functional/UI/Pantalla Oportunidades.md"
+              }
+            }
+          },
+          {
+            "id": "37dccefb0ad728a8",
+            "type": "leaf",
+            "state": {
+              "type": "copilot-chat-view",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 482.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "copilot:Copilot Chat": false
+    }
+  },
+  "active": "33f1bdb4768d7b27",
+  "lastOpenFiles": [
+    "Features/Oportunidades Destacadas.md",
+    "Functional/UI/Pantalla Oportunidades.md",
+    "Ontology/Oportunidad.md",
+    "Functional/UI/Componente Bandeja de Notificaciones.md",
+    "Resources/Images/Notificaciones Component.png",
+    "Untitled.canvas",
+    "User Stories/Nuevo Cliente HU.md",
+    "Guía Escritura.md",
+    "Welcome SRS.md",
+    "Functional/UI/Pantalla Lanzador de Aplicaciones.md",
+    "Functional/UI/Pantalla Login.md",
+    "Ontology/Cliente.md",
+    "Functional/UI/Componente Cabecera.md",
+    "Functional/UI/Pantalla Lanzador de Aplicaciones 1.md",
+    "Functional/Gestionar Colaboradores de una Oportunidad.md",
+    "Ontology/Gerente.md",
+    "Ontology/Digital Center.md",
+    "User Stories/Crear Oportunidad.md",
+    "User Stories/Gestionar Notificaciones.md",
+    "Resources/Documents/Análisis Funcional Hunting Zone.pdf",
+    "Functional/UI/Flujo Crear una Oportunidad.md",
+    "Functional/UI/Componente Selector de Aplicaciones.md",
+    "Ontology/Proyecto.md",
+    "Functional/UI/Componente Selector de Contactos.md",
+    "Functional/UI/Componente Selector de Clientes.md",
+    "Functional/UI/Flujo Crear un Contacto.md",
+    "Functional/UI/Pantalla Detalle Oportunidad.md",
+    "Functional/UI/Pantalla Detalle Cliente.md",
+    "Functional/UI/Componente Formulario Edición Datos Básicos Cliente.md",
+    "Functional/Canvas Test 1.canvas",
+    "Resources/Images/Formulario Edición Datos Básicos Cliente II Component.png",
+    "Resources/Images/Formulario Edición Cliente Component.png",
+    "Resources/Images/Proyecto Asociado a Oportunidad Component.png",
+    "Resources/Images/Comentarios Oportunidad Component.png",
+    "Resources/Images/Filtro Oportunidades Component.png",
+    "Resources/Images/Formulario Detalle Oportunidad Component.png",
+    "Resources/Images/Selector de Contactos Component.png",
+    "Resources/Images/Formulario Filtro Contactos Page.png",
+    "Resources/Images/Contactos de Cliente Page.png",
+    "Resources/Documents/ManualDeUsuarioBHZ_2021.pdf",
+    "Services",
+    "Features",
+    "Untitled 1.canvas",
+    "Functional/UI",
+    "Sin título.canvas",
+    "Sin título 1.canvas",
+    "Sin título 2.canvas",
+    "Resources/Documents",
+    "Sin nombre",
+    "Components",
+    "Templates",
+    "Resources/Images"
+  ]
+}

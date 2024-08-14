@@ -160,6 +160,7 @@ async def extract_knowledge_graph_from_file(
     try:
         graph = create_graph_database_connection(uri, userName, password, database)   
         graphDb_data_Access = graphDBdataAccess(graph)
+        logging.info(f'source_type: {source_type}')
         
         if source_type == 'local file':
             merged_file_path = os.path.join(MERGED_DIR,file_name)
@@ -170,6 +171,11 @@ async def extract_knowledge_graph_from_file(
         elif source_type == 's3 bucket' and source_url:
             result = await asyncio.to_thread(
                 extract_graph_from_file_s3, uri, userName, password, database, model, source_url, aws_access_key_id, aws_secret_access_key, allowedNodes, allowedRelationship)
+        
+        elif source_type == 'obsidian vault' and source_url:
+            logging.info(f'Extracting graph from obsidian vault')
+            result = await asyncio.to_thread(
+                extract_graph_from_obsidian_vault, uri, userName, password, database, model, source_url, aws_access_key_id, aws_secret_access_key, allowedNodes, allowedRelationship)
         
         elif source_type == 'web-url':
             result = await asyncio.to_thread(

@@ -1,0 +1,6 @@
+---
+tags:
+  - Entity
+aliases:
+  - Oficinas
+---
